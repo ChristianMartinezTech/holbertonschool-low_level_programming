@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+/**
+ * main - Print the alphabt
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	int a;
+
+	for (a = '0'; a <= 'f'; a++)
+		putchar(a);
+	putchar('\n');
+	return (0);
+}
