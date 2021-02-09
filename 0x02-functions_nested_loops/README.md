@@ -1,0 +1,1 @@
+This is the folder for the 0x02. C - Functions, nested loops proyect.
