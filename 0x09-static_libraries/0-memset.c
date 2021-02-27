@@ -1,12 +1,13 @@
 #include "holberton.h"
 
 /**
- * _strcat - appends
- * @dest: variable
- * @src: variable
- * Return: appends the src string to the dest
+ * _memset - fills first n bytes of memory pointed to by s with b
+ * @s: variable
+ * @b: variable
+ * @n: variable
+ * Return: a pointer to the memory area s
  */
 
-char *_strcat(char *dest, char *src)
+char *_memset(char *s, char b, unsigned int n)
 {
 }
