@@ -2,9 +2,9 @@
 
 /**
  *  - funtion
- * @a:
- * @b:
- * Return:
+ * @a: var
+ * @b: var
+ * Return: 
  */
 
 {	
