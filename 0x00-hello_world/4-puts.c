@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Program to print in the screen.
  *
  * Return: Always 0 (Success)
  */
