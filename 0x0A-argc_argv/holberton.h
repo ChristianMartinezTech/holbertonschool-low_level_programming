@@ -1,6 +1,5 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 int _putchar(char c);
-int function_name (int argc, char *argv[]);
-
+int function_name(int argc, char *argv[]);
 #endif
