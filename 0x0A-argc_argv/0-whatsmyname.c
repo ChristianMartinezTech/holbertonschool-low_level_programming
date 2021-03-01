@@ -10,9 +10,9 @@
 
 int function_name(int argc, char *argv[])
 {
-	if (argc >= 1)
+	if (argc >= 0)
 	{
-		printf("%c\n", *argv[0]);
+		printf("%s\n", argv[0]);
 		return (0);
 	}
 	else
