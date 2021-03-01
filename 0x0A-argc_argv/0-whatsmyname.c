@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  * function_name - prints the name of the program
@@ -11,6 +12,11 @@ int function_name(int argc, char *argv[])
 {
 	if (argc >= 1)
 	{
-		_putchar("%s/n", *argv[0]);
+		printf("%c\n", *argv[0]);
+		return (0);
+	}
+	else
+	{
+		return (1);
 	}
 }
