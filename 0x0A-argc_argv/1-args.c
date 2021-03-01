@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * numbr_arguments - prints the number of arguments
+ * main - prints the number of arguments
  * @argc: var
  * @argv: var
  * Return: 0
  */
 
-int numbr_arguments(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
