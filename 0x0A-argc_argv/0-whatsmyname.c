@@ -8,15 +8,8 @@
  * Return: 0
  */
 
-int function_name(int argc, char *argv[])
+int function_name(int argc __attribute__((unused)), char *argv[])
 {
-	if (argc >= 0)
-	{
 		printf("%s\n", argv[0]);
 		return (0);
-	}
-	else
-	{
-		return (1);
-	}
 }
