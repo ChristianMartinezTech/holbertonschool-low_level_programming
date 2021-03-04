@@ -21,10 +21,11 @@ char *create_array(unsigned int size, char c)
 	else
 	{
 		ptr = malloc(sizeof(char) * size);
+
 		if (ptr == NULL)
-			{
-				return (NULL);
-			}
+		{
+			return (NULL);
+		}
 
 		for (a = 0; a < size; a++)
 		{
