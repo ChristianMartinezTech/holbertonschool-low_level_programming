@@ -1,12 +1,16 @@
 #include "holberton.h"
 
 /**
- * _puts - funtion to reset the variable value to 98
- *@str: length
+ * _puts - prints a string, followed by a new line, to stdout
+ *@str: var
  * Return: (void)
  */
 
 void _puts(char *str)
 {
-	char str[64] = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	while (*str)
+	{
+	_putchar(*str++);
+	}
+	_putchar('\n');
 }
