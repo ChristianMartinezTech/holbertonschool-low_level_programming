@@ -1,5 +1,5 @@
 #ifndef DOG_H
-#define DEG_H
+#define DOG_H
 
 /**
  * struct dog - struct with dates.
@@ -14,5 +14,5 @@ typedef struct dog
 	float age;
 	char *owner;
 } dog;
-
+void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif
