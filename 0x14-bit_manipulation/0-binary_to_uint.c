@@ -11,18 +11,18 @@ unsigned int count, a;
 unsigned int c = 1;
 unsigned int d = 0;
 
-if (b == NULL)
+if (b == '\0')
 return (0);
 
 for (count = 0; b[count] != '\0'; count++)
 {
 	a = (count - 1);
 
-	if (b[a] != 48 && b[a] != 49)
+	if (b[a] != '0' && b[a] != '1')
 	{
 		return (0);
 	}
-	if (b[a] == 49)
+	if (b[a] == '1')
 	{
 		d = (d + c);
 	}
