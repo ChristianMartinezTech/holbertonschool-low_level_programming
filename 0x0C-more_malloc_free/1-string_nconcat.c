@@ -5,7 +5,7 @@
  * @s1: var
  * @s2: var
  * @n: var
- * Return: pointer.
+ * Return: Pointer.
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -43,7 +43,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			a2++;
 			}
 			a2++;
-			final[a2] = '\0';
+			final[b2] = '\0';
 
 		return (final);
 }
