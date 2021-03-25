@@ -11,6 +11,9 @@ unsigned int count, a;
 unsigned int c = 1;
 unsigned int d = 0;
 
+if (b == NULL)
+return (0);
+
 for (count = 0; b[count] != '\0'; count++)
 {
 	a = (count - 1);
