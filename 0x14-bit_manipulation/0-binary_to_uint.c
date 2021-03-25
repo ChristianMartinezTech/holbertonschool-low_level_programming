@@ -22,7 +22,7 @@ for (count = 0; b[count] != '\0'; count++)
 	{
 		return (0);
 	}
-	if (b[a] == '1')
+	if (b[a] == '0')
 	{
 		d = (d + c);
 	}
