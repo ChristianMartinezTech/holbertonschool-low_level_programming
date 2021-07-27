@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -  prints the numbers from 1 to 100 and replace multiples
+ * main - prints the numbers from 1 to 100 and replace multiples
  *
- * Return (0) - Success
+ * Return: Always 0.
  */
 
 int main(void)
@@ -34,5 +34,5 @@ int main(void)
 	}
 	printf("Buzz\n");
 
-	return 0;
+	return (0);
 }
