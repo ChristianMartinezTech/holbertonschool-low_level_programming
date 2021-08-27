@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - program that multiplies two numbers
@@ -10,19 +11,18 @@
 
 int main(int argc, char *argv[])
 {
-	int c;
-	
-	if (argc < 2)
-	{
-		printf("Error\n");
-			return (1);
-	}
+	int val_1 = atoi(argv[1]);
+	int val_2 = atoi(argv[2]);
+	int mult = val_1 * val_2;
 
-	else
-	{
-		for (c = 0; c < argc; c ++)
-		{
-		printf("%d\n", c);
-		return (0);
-	}
+	 if (argc == 3)
+	 {
+		 printf("%d\n", mult);
+		 return(0);
+	 }
+	 else
+	 {
+		 printf("Error\n");
+		 return(1);
+	 }
 }
