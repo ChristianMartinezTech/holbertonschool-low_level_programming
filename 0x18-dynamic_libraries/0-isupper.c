@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _isupper - returns 1 for an uppercase character, 0 if its lowercase
