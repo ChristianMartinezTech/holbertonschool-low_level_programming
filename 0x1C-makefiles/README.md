@@ -1,4 +1,4 @@
-# 0x1E. C - Search Algorithms
+# 0x1C. C - Makefiles
 # Learning Objectives
 
 ## General
